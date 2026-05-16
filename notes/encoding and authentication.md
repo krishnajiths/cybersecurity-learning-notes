@@ -1,4 +1,4 @@
-# Encoding
+# Encoding and Authentication
 
 ## Character Encoding
 - **ASCII:** agreed upon bit representation of letters, numbers, and special characters (7 bits) (limited to above, can’t represent other languages or emojis)
