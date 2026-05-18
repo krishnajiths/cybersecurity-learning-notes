@@ -59,3 +59,4 @@
 - POST
 - PUT
 - DELETE
+- HEAD: Sends the server header
