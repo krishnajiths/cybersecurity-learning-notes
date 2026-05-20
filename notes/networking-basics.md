@@ -43,6 +43,10 @@
 # Encapsulation
 - Applying headers so that the data can be correctly sent and organized to the receiver
 
+## DHCP (Dynamic Host Configuration Protocol)
+- Automatically assigns IP address to devices
+- **D** - Discover | **O** - Offer | **R** - Request | **A** - Acknowledge
+
 # TELNET (Teletype Network)
 - Allows you to connect to and communicate with a remote system and issue text commands
 
@@ -60,3 +64,4 @@
 - PUT
 - DELETE
 - HEAD: Sends the server header
+
