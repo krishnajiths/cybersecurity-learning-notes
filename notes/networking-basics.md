@@ -54,8 +54,6 @@
 - Commands used include ping and tracert
     - tracert stops when **Time-To-Live (TTL)** reaches 0
 
-Move to Repo
-
 ## DNS (Domain Name System)
 - Operates at layer 7, the application layer of the OSI model
 - Uses UDP port 53 and TCP port 53
@@ -63,25 +61,41 @@ Move to Repo
 - **AAAA record:** sets a IPV6 to a domain name
 - **CNAME record:** sets a domain name to another domain name
 - **MX record:** specifies the mail server responsible for handling emails for a domain
-- ```bash nslookup www.example.com ``` to lookup the IP to a domain 
+- ```nslookup www.example.com ``` to lookup the IP to a domain 
 
 ## WHOIS
 - Public records on who owns a domain name
 - Includes accurate contact details
-- ```bash whois [website] ```
+- ```whois [website] ```
 
 ## HTTP(S) - Access the web
 - Hyper Text Transfer Protocol (Secure)
 - Use TCP port 80 (HTTP) and port 443 (HTTPS)
-- ```bash telnet <target-ip> 80 ```
+- ```telnet <target-ip> 80 ```
 
 ## FTP
 - File Transfer Protocol
 - Listen on TCP port 21
-- ```bash ftp <target-ip> ```
+- ``` ftp <target-ip> ```
 
 ## SMTP
 - Simple Mail Transfer Protocol
+- Listens on TCP port 25
+- ``` HELO ``` to start connection
+- ``` MAIL FROM ``` who is the sender
+- ``` RCPT TO ``` who is the recipient
+- ``` DATA ``` start of message
+- ```. ``` on its own line, end of message
+
+## POP3
+- Post Office Protocol V3
+- Allows client to communicate with mail server and retrieve messages
+- POP3 server listens on TCP port 110
+
+## IMAP
+- Internet Message Access Protocol
+- Synchronizes mailbox across multiple devices
+- Listens on TCP port 143
 
 ## Routing
 - **OSPF (Open Shortest Path First):** Routers exchange data about state of their links in order to create a network map for efficient routing.
