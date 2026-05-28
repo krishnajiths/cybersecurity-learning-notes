@@ -126,3 +126,30 @@
 - DELETE
 - HEAD: Sends the server header
 
+# Security
+
+## TLS
+- **Transport Layer Security**
+- Secures data being sent over the internet
+- Secures confidentiality, integrity, and authenticity
+- Adds “S” for secure to end of HTTP, SMTP, POP3, and IMAP
+- TLS TCP Ports:
+    - HTTPS: 443
+    - SMPTS: 465 and 587
+    - POP3S: 995
+    - IMAPS: 993
+
+## SSH
+- More secure version of telnet, data is not sent in cleartext
+- OpenSSH is the open-source implementation of the SSH protocol
+- Using tunneling SSH is able to create a secure tunnel to route other protocols through SSH
+- Using X11 Forwarding SSH allows the user to use the graphical application over the network for systems like Unix with graphical interfaces 
+- SSH server listens on TCP port 22
+- SFTP: SSH File Transfer Protocol, lets you securely transfer files over SSH | **Uses port 22**
+- FTP: File Transfer Protocol, requires a proper TLS certificate to run securely | **Uses port 21**
+
+## VPN
+- Virtual Private Network
+- All data is sent encrypted through a VPN tunnel
+- VPN server address is shown instead of IP address
+
