@@ -153,3 +153,18 @@
 - All data is sent encrypted through a VPN tunnel
 - VPN server address is shown instead of IP address
 
+## Wireshark
+- Detecting and troubleshooting network problems
+- Detecting security anomalies 
+- Investigating and learning protocol details
+
+### Packet Details
+- Frame: Physical layer
+- Source MAC: Data link layer
+- Sorce IP: Network layer
+- Protocol: Transport Layer (Shows details of what protocol was used: UDP/TCP)
+- Protocol Errors: Transport Layer (Shows specific segments of TCP need to be reassembled)
+- Application Protocol: Application Layer (Shows details specific to the protocol used: HTTP, FTP, and SMB)
+- Application Data: Application Layer (Shows application specific data)
+
+
